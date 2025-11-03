@@ -59,6 +59,7 @@ h1 {
     background-image: url(../imgs/graph.jpg);
     width: 207px;
     height: 157px;
+    box-sizing: content-box;
 }
 
 .tb-color {
@@ -68,7 +69,7 @@ h1 {
 figure {
     padding-left: 0%;
     margin-left: 0%;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 ul {
@@ -77,4 +78,14 @@ ul {
 
 figure > img {
     width: 40%;
+}
+
+
+body {
+    height: 297mm;
+    width: 210mm;
+}
+
+.fontsize {
+    font-size: 12.5px;
 }
