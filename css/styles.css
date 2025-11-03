@@ -1,12 +1,11 @@
 header {
     background-image: url(../imgs/pattern.png);
     background-color: lightskyblue;
-    background-size: cover;
-    padding: 0;
+    background-size: 250px;
+    padding-top: 35px;
 }
 
 #logo {
-    height: 15%;
     width: 15%;
 }
 
@@ -23,23 +22,49 @@ thead {
     background-color: aqua;
 }
 
+h4 {
+    color: grey;
+}
+
 h5 {
     color: gray;
+    font-weight: normal;
     margin: 0px;
 }
 
 h6 {
     color: gray;
+    font-weight: normal;
     margin: 0px;
 }
 
 h1 {
     margin-bottom: 0px;
+    letter-spacing: -1px;
 }
 
-.monitor {
+#monitor {
+    color: white;
     background-image: url(../imgs/monitor.jpg);
+    container: inherit;
 }
-.graph {
+
+#graph {
+    color: white;
     background-image: url(../imgs/graph.jpg);
+    background-size: auto;
+}
+
+.tb-color {
+    color: lightskyblue;
+}
+
+figure {
+    padding-left: 0%;
+    margin-left: 0%;
+    font-size: 12px;
+}
+
+ul {
+    padding-left: 17px;
 }
