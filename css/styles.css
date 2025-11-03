@@ -4,3 +4,20 @@ header {
     margin: 0;
     padding: 0;
 }
+
+#logo {
+    height: 25%;
+    width: 25%;
+}
+
+mark {
+    background-color: yellow;
+}
+
+thead {
+    background-color: blue;
+}
+
+.tr-bg-color {
+    background-color: aqua
+    ;}
