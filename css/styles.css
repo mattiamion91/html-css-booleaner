@@ -76,10 +76,13 @@ ul {
     padding-left: 17px;
 }
 
-figure > img {
-    width: 40%;
+#img1 {
+    width: 53%;
 }
 
+#img2 {
+    width: 46%;
+}
 
 body {
     height: 297mm;
@@ -88,4 +91,8 @@ body {
 
 .fontsize {
     font-size: 12.5px;
+}
+
+th {
+    text-align: left;
 }
