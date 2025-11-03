@@ -1,13 +1,13 @@
 header {
     background-image: url(../imgs/pattern.png);
     background-color: lightskyblue;
-    margin: 0;
+    background-size: cover;
     padding: 0;
 }
 
 #logo {
-    height: 25%;
-    width: 25%;
+    height: 15%;
+    width: 15%;
 }
 
 mark {
@@ -15,9 +15,31 @@ mark {
 }
 
 thead {
+    color: white;
     background-color: blue;
 }
 
 .tr-bg-color {
-    background-color: aqua
-    ;}
+    background-color: aqua;
+}
+
+h5 {
+    color: gray;
+    margin: 0px;
+}
+
+h6 {
+    color: gray;
+    margin: 0px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.monitor {
+    background-image: url(../imgs/monitor.jpg);
+}
+.graph {
+    background-image: url(../imgs/graph.jpg);
+}
