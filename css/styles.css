@@ -1,12 +1,14 @@
 header {
     background-image: url(../imgs/pattern.png);
     background-color: lightskyblue;
-    background-size: 250px;
+    background-size: 325px;
     padding-top: 35px;
+    margin: -8px;
 }
 
 #logo {
     width: 15%;
+    padding-left: 6px;
 }
 
 mark {
@@ -46,13 +48,17 @@ h1 {
 #monitor {
     color: white;
     background-image: url(../imgs/monitor.jpg);
-    container: inherit;
+    width: 207px;
+    height: 157px;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 #graph {
     color: white;
     background-image: url(../imgs/graph.jpg);
-    background-size: auto;
+    width: 207px;
+    height: 157px;
 }
 
 .tb-color {
@@ -67,4 +73,8 @@ figure {
 
 ul {
     padding-left: 17px;
+}
+
+figure > img {
+    width: 40%;
 }
