@@ -1,6 +1,6 @@
 header {
     background-image: url(../imgs/pattern.png);
-    background-color: lightskyblue;
+    background-color: rgb(78, 160, 255);
     background-size: 325px;
     padding-top: 35px;
     margin: -8px;
@@ -17,11 +17,11 @@ mark {
 
 thead {
     color: white;
-    background-color: blue;
+    background-color: rgb(32, 169, 229);
 }
 
 .tr-bg-color {
-    background-color: aqua;
+    background-color: rgb(177, 229, 242);
 }
 
 h4 {
@@ -50,8 +50,11 @@ h1 {
     background-image: url(../imgs/monitor.jpg);
     width: 207px;
     height: 157px;
-    margin-bottom: 5px;
+    margin-bottom: -10px;
+    margin-top: -15px;
     padding-top: 5px;
+    padding-left: 10px;
+    background-size: cover;
 }
 
 #graph {
@@ -59,7 +62,9 @@ h1 {
     background-image: url(../imgs/graph.jpg);
     width: 207px;
     height: 157px;
-    box-sizing: content-box;
+    background-size: cover;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .tb-color {
